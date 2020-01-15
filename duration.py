@@ -13,7 +13,7 @@ def parse_duration(dur):
         dur: string expressing duration.
     Returns:
         duration expressed as floating point number of seconds.
-    
+
     """
     def to_secs(val, unit):
         if unit not in _keys:
